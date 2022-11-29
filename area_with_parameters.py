@@ -23,9 +23,9 @@ def main():
     base_from_user = input("Enter the base length of a triangle (cm): ")
 
     try:
-        height_from_user = int(height_from_user)
-        base_from_user = int(base_from_user)
-        calculate_area_triangle(base_from_user, height_from_user)
+        height = int(height_from_user)
+        base = int(base_from_user)
+        calculate_area_triangle(base, height)
     except ValueError:
         print("\nInvalid Input")
 
